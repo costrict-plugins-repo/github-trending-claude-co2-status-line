@@ -1,0 +1,38 @@
+{
+	"name": "claude-co2-status-line",
+	"version": "1.2.4",
+	"description": "Claude Code status line plugin showing energy usage and CO2 estimates",
+	"keywords": [
+		"claude-code",
+		"statusline",
+		"co2",
+		"energy",
+		"carbon"
+	],
+	"homepage": "https://github.com/stuartshields/claude-co2-status-line#readme",
+	"bugs": {
+		"url": "https://github.com/stuartshields/claude-co2-status-line/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/stuartshields/claude-co2-status-line.git"
+	},
+	"license": "MIT",
+	"author": "Stuart Shields",
+	"type": "module",
+	"main": "./src/calculate.js",
+	"directories": {
+		"test": "tests"
+	},
+	"files": [
+		".claude-plugin/",
+		"src/",
+		"skills/",
+		"hooks/",
+		"FORMULAS.md",
+		"CHANGELOG.md"
+	],
+	"scripts": {
+		"test": "node --test 'tests/*.test.js'"
+	}
+}
